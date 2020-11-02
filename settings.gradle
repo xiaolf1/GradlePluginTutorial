@@ -1,0 +1,4 @@
+include ':app'
+include ':hello-plugin'
+include ':apkrename-plugin'
+rootProject.name = "GradlePluginTutorial"

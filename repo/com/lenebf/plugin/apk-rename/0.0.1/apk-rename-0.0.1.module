@@ -1,0 +1,70 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.lenebf.plugin",
+    "module": "apk-rename",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "5iaqe3gwgvetrlgk6jvzkxq7pe"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "apk-rename-0.0.1.jar",
+          "url": "apk-rename-0.0.1.jar",
+          "size": 6795,
+          "sha512": "e6501e093b9e6db035db7f3a78df54b321177d10da0bf8fc9285cd8f4f519f7d5cda5799f0b4b7d025224614f1186adecfbcf6f00ac63ca8128cb52f404b5911",
+          "sha256": "20bb2250ae30be6e14dcfc80dba92cee07402108d522e7ca3a49a3230c681dcb",
+          "sha1": "e1e9d3378b8bdf9ef2cd7982fe84ec6810d61b83",
+          "md5": "3ab81b49ffc767947a751259b4fd961a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "4.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apk-rename-0.0.1.jar",
+          "url": "apk-rename-0.0.1.jar",
+          "size": 6795,
+          "sha512": "e6501e093b9e6db035db7f3a78df54b321177d10da0bf8fc9285cd8f4f519f7d5cda5799f0b4b7d025224614f1186adecfbcf6f00ac63ca8128cb52f404b5911",
+          "sha256": "20bb2250ae30be6e14dcfc80dba92cee07402108d522e7ca3a49a3230c681dcb",
+          "sha1": "e1e9d3378b8bdf9ef2cd7982fe84ec6810d61b83",
+          "md5": "3ab81b49ffc767947a751259b4fd961a"
+        }
+      ]
+    }
+  ]
+}
