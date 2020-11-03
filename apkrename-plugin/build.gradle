@@ -47,7 +47,7 @@ publishing {
             groupId = 'com.lenebf.plugin'
             // 翻译过来是 工件ID，我的理解是插件的名字
             artifactId = 'apk-rename'
-            version = '0.0.5'
+            version = '0.0.6'
             artifact sourcesJar
             // artifact javadocJar
         }
@@ -67,26 +67,26 @@ bintray {
         // 每次上传直接发布
         publish = true
 
-        // 开原许可，如果是OSS(Object Storage Service)包必须有，否则可选
+        // 开原许可，如果是开源包必须有，否则可选
         // 文档原话：your package licenses (mandatory if the package doesn't exist yet and must be created,
         // and if the package is an OSS package; optional otherwise)
-        // licenses = ['Apache-2.0']
+        licenses = ['Apache-2.0']
 
-        // 版本控制系统地址（一般为git地址）如果是OSS(Object Storage Service)包必须有，否则可选
+        // 版本控制系统地址（一般为git地址）如果是开源包必须有，否则可选
         // 文档原话：your VCS URL (mandatory if the package doesn't exist yet and must be created,
         // and if the package is an OSS package; optional otherwise)
-        // vcsUrl = 'https://github.com/bintray/gradle-bintray-plugin.git'
+        vcsUrl = 'https://github.com/lenebf/GradlePluginTutorial'
 
         // 包的版本信息
         version {
             // 必填，版本名称
-            name = '0.0.5'
+            name = '0.0.6'
             // 选填，版本描述
-            desc = 'ApkRename Plugin 0.0.5'
+            desc = 'ApkRename Plugin 0.0.6'
             // 选填，版本发布日期
             released = new Date()
             // 选填，版本控制系统的对象的tag名称
-            vcsTag = 'tag_0.0.5'
+            vcsTag = 'tag_0.0.6'
             // 选填，该版本的附件属性信息，可以任意填写
             attributes = ['apk-rename': 'a simple plugin.']
         }
